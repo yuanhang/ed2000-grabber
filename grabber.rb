@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-doc = Nokogiri::HTML(open('http://www.ed2000.com/ShowFile.asp?vid=2751889'))
+doc = Nokogiri::HTML(open('http://www.ed2000.com/ShowFile.asp?FileID=552349'))
 
 
 links = []
